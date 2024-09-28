@@ -159,9 +159,9 @@ class Tapper:
             if settings.USE_REF == True and settings.REF_ID is not None:
                 ref_id = settings.REF_ID
             else:
-                ref_id = 'ref_7270017507'
+                ref_id = 'ref_810529190'
 
-            self.start_param = random_choices([ref_id, 'ref_7270017507'])
+            self.start_param = ref_id
 
             peer = await self.tg_client.resolve_peer('Binance_Moonbix_bot')
             InputBotApp = types.InputBotAppShortName(bot_id=peer, short_name="start")

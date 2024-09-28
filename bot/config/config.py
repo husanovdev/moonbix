@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     API_HASH: str
 
     USE_REF: bool = True
-    REF_ID: str = 'ref_7270017507'
+    REF_ID: str = 'ref_810529190'
 
     ENABLE_AUTO_TASKS: bool = True
     ENABLE_AUTO_PLAY_GAMES: bool = True
